@@ -1,0 +1,17 @@
+gradio>=3.30
+python-docx>=0.8.11
+nltk>=3.8
+scikit-learn>=1.2
+pandas>=1.5
+faiss-cpu>=1.7.4  # or faiss-gpu if you want GPU
+openai>=1.0.0     # optional, for embeddings/LLM
+sentence_transformers>=2.2.2
+tqdm
+pypandoc
+pdfminer.six>=20221105
+openai>=1.0.0        # optional (for OpenAI)
+transformers>=4.34   # for local LLM fallback
+accelerate>=0.20
+torch>=2.0           # CPU or GPU depending on environment
+faiss-cpu>=1.7.4
+sentence_transformers>=2.2.2
